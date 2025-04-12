@@ -1,0 +1,126 @@
+Sure! Here are **two realistic sample inputs** (not from the PIMA dataset) with all 8 features used in your app, designed to test both diabetic and non-diabetic scenarios. You can enter them manually in your Streamlit UI or test them via code.
+
+---
+
+### 🔹 **Sample Input 1: Likely Non-Diabetic**
+| Feature                      | Value  |
+|-----------------------------|--------|
+| Pregnancies                 | 1      |
+| Glucose                     | 95     |
+| Blood Pressure              | 72     |
+| Skin Thickness              | 23     |
+| Insulin                     | 88     |
+| BMI                         | 24.3   |
+| Diabetes Pedigree Function  | 0.127  |
+| Age                         | 29     |
+
+---
+
+### 🔸 **Sample Input 2: Likely Diabetic**
+| Feature                      | Value  |
+|-----------------------------|--------|
+| Pregnancies                 | 5      |
+| Glucose                     | 182    |
+| Blood Pressure              | 80     |
+| Skin Thickness              | 36     |
+| Insulin                     | 190    |
+| BMI                         | 34.8   |
+| Diabetes Pedigree Function  | 1.221  |
+| Age                         | 52     |
+
+
+Certainly! To test your stacked ensemble model with real-world data that matches the structure of the Pima dataset, you can use the following sample data points. These examples are based on actual patient data and include the same features as the Pima dataset:
+
+1. **Sample 1:**
+   - Pregnancies: 2
+   - Glucose: 138 mg/dL
+   - Blood Pressure: 62 mm Hg
+   - Skin Thickness: 35 mm
+   - Insulin: 0 IU/mL
+   - BMI: 33.6 kg/m²
+   - Diabetes Pedigree Function: 0.127
+   - Age: 47 years
+   - **Outcome:** 1 (Diabetic)
+
+2. **Sample 2:**
+   - Pregnancies: 4
+   - Glucose: 99 mg/dL
+   - Blood Pressure: 72 mm Hg
+   - Skin Thickness: 17 mm
+   - Insulin: 0 IU/mL
+   - BMI: 25.6 kg/m²
+   - Diabetes Pedigree Function: 0.294
+   - Age: 28 years
+   - **Outcome:** 0 (Non-Diabetic)
+
+3. **Sample 3:**
+   - Pregnancies: 6
+   - Glucose: 147 mg/dL
+   - Blood Pressure: 80 mm Hg
+   - Skin Thickness: 37 mm
+   - Insulin: 0 IU/mL
+   - BMI: 39.9 kg/m²
+   - Diabetes Pedigree Function: 0.257
+   - Age: 43 years
+   - **Outcome:** 1 (Diabetic)
+
+4. **Sample 4:**
+   - Pregnancies: 1
+   - Glucose: 89 mg/dL
+   - Blood Pressure: 66 mm Hg
+   - Skin Thickness: 23 mm
+   - Insulin: 94 IU/mL
+   - BMI: 28.1 kg/m²
+   - Diabetes Pedigree Function: 0.167
+   - Age: 21 years
+   - **Outcome:** 0 (Non-Diabetic)
+
+5. **Sample 5:**
+   - Pregnancies: 0
+   - Glucose: 137 mg/dL
+   - Blood Pressure: 40 mm Hg
+   - Skin Thickness: 35 mm
+   - Insulin: 168 IU/mL
+   - BMI: 43.1 kg/m²
+   - Diabetes Pedigree Function: 2.288
+   - Age: 33 years
+   - **Outcome:** 1 (Diabetic)
+
+6. **Sample 6:**
+   - Pregnancies: 3
+   - Glucose: 126 mg/dL
+   - Blood Pressure: 88 mm Hg
+   - Skin Thickness: 41 mm
+   - Insulin: 235 IU/mL
+   - BMI: 39.3 kg/m²
+   - Diabetes Pedigree Function: 0.704
+   - Age: 27 years
+   - **Outcome:** 0 (Non-Diabetic)
+
+7. **Sample 7:**
+   - Pregnancies: 2
+   - Glucose: 129 mg/dL
+   - Blood Pressure: 60 mm Hg
+   - Skin Thickness: 18 mm
+   - Insulin: 185 IU/mL
+   - BMI: 27.5 kg/m²
+   - Diabetes Pedigree Function: 0.219
+   - Age: 22 years
+   - **Outcome:** 1 (Diabetic)
+
+8. **Sample 8:**
+   - Pregnancies: 5
+   - Glucose: 116 mg/dL
+   - Blood Pressure: 74 mm Hg
+   - Skin Thickness: 0 mm
+   - Insulin: 0 IU/mL
+   - BMI: 25.6 kg/m²
+   - Diabetes Pedigree Function: 0.201
+   - Age: 30 years
+   - **Outcome:** 0 (Non-Diabetic)
+
+9. ** 
+
+---
+
+Would you like code to test these programmatically or want me to generate more diverse edge cases (e.g. low insulin, young age, high BMI)?
